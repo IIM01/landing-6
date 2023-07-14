@@ -132,7 +132,8 @@ h6 {
   background-position: 0 0;
 }
 
-.ibg > img {
+.ibg > img,
+.ibg > picture {
   display: none;
 }
 
@@ -454,6 +455,7 @@ h6 {
 
 .price {
   position: relative;
+  padding: 18.75rem 0;
 }
 
 .price__title-block {
